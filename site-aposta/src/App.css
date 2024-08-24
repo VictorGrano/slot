@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: white;
+}
+
+.App {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.5);
+  width: 300px;
+  text-align: center;
+}
+
+.saldo {
+  margin-bottom: 20px;
+}
+
+.inputSaldo {
+  background-color: #203a43;
+  color: white;
+  border: 2px solid #00adb5;
+  border-radius: 5px;
+  padding: 10px;
+  width: 120px;
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+}
+
+.box {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+.imgContainer {
+  width: 70px;
+  height: 70px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 5px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+button {
+  background-color: #00adb5;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin: 10px 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #00d9db;
+}
+
+.info {
+  margin-top: 20px;
+}
+
+.infoP {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid #00adb5;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
